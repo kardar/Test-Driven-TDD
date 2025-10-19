@@ -16,4 +16,11 @@ public class WordsTest {
 
     }
 
+    @Test
+    public void oneCorrectLetter() {
+        var word = new Word("A");
+        var score = word.guess("A");
+        Assertions.assertEquals(Letter.CORRECT, score.letter(0));
+    }
+
 }
