@@ -2,6 +2,7 @@ package org.wordz.domain;
 
 public enum Letter {
     CORRECT,
-    PRESENT,
+    PART_CORRECT,
     INCORRECT,
+    PRESENT,
 }

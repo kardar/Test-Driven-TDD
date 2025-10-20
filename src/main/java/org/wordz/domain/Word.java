@@ -11,7 +11,7 @@ public class Word {
 
     public Score guess(String z) {
       var score = new Score(word);
-      score.assess(0, z);
+      score.assess( z);
         return score;
     }
 }
