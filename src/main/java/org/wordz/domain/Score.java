@@ -16,7 +16,6 @@ public class Score {
 
     public void assess( String attempt) {
         for (char current : attempt.toCharArray()) {
-
             if (isCorrectLetter( current)) {
                 result = Letter.CORRECT;
             } else if(isOccureInWord(current)) {
