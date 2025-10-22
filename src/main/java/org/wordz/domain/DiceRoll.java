@@ -1,5 +1,7 @@
 package org.wordz.domain;
 
+import org.wordz.domain.domainInterfaces.RandomNumbers;
+
 public class DiceRoll {
 
     private final int NUMBER_OF_SIDES = 6;

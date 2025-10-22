@@ -1,7 +1,6 @@
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.wordz.domain.DiceRoll;
-import org.wordz.domain.RandomNumbers;
 
 public class DiceRolledTest {
 

@@ -1,4 +1,4 @@
-package org.wordz.domain;
+package org.wordz.domain.domainInterfaces;
 
 public interface RandomNumbers {
 
