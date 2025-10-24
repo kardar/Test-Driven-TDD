@@ -13,6 +13,6 @@ public class MailTest {
         Assertions.assertTrue(mailService.wasCalled);
         Assertions.assertEquals ("newuser@example.com", mailService.actualRecipient);
         Assertions.assertEquals ("Welcome!", mailService.actualSubject);
-        Assertions.assertEquals("Welcome to our platform!", mailService.actualSubject);
+        Assertions.assertEquals("Welcome to our platform!", mailService.actualText);
     }
 }
