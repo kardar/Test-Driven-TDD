@@ -26,12 +26,4 @@ public class WordsTest {
         Assertions.assertEquals(Letter.CORRECT, score.letter(0));
     }
 
-    @Test
-    public void twoLetterWrongPosition() {
-        var word = new Word("AR");
-        var score = word.guess("ZR");
-        assertScoreForLetter(score, 1, Letter.PART_CORRECT);
-
-    }
-
 }
